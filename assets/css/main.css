@@ -1,0 +1,86 @@
+/* Type */
+
+@media screen and (max-width: 1680px) {
+	body,
+	input,
+	select,
+	textarea {
+		font-size: 13pt;
+		color: #333333;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	line-height: 1.5;
+	margin: 0 0 0.5em 0;
+}
+
+
+h2 {
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.1em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+h5 {
+	font-size: 0.8em;
+}
+
+h6 {
+	font-size: 0.6em;
+}
+
+/* Features */
+
+.features {
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	border-radius: 0.25em;
+	margin: 0 0 2em 0;
+}
+
+.features section {
+	padding: 3.5em 3em 1em 7em;
+	width: 50%;
+	position: relative;
+}
+
+.features section .icon {
+	position: absolute;
+	left: 3em;
+	top: 3em;
+}
+
+/* Icon */
+
+.icon:before {
+	font-family: FontAwesome;
+}
+
+.icon.major:before {
+	font-size: 2.25em;
+}
+
+ /*Wrapper*/
+.wrapper.style3 {
+	background-color: #ffffff;
+	
+}
